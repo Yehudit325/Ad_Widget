@@ -1,11 +1,10 @@
 class Controller {
 	constructor(view) {
-	    this.view = view;
+        this.view = view;
 	}
     
     init() {
         this.getItemData();
-        this.view.init();
     }
 
     getItemData() {
@@ -25,6 +24,7 @@ class Controller {
         data.list.forEach(this.pushItems);
 
         console.log(items);
+        this.view.init()
     }
 
     pushItems(item) {
