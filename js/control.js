@@ -22,8 +22,6 @@ class Controller {
 
     handleItemData(data) {
         data.list.forEach(this.pushItems);
-
-        console.log(items);
         this.view.init()
     }
 
