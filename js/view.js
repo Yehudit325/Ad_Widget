@@ -30,7 +30,7 @@ class View {
             
             // Create text elements
             let title = document.createElement('span'); 
-            title.innerText = itemList[i].title + "\n";
+            title.innerText = itemList[i].title;
             title.className = "title";
             let branding = document.createElement('span'); 
             branding.innerText = itemList[i].branding;
