@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.widget-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    border: 5px solid red;
+}
+
+.item-container {
+    flex: 33%;
+    max-width: 33%;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.item-pic {
+    margin: auto;
+    width: 95%;
+    height: 65%;
+}
+
+.item-pic img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.branding {
+    color: red;
+}
+
+.title, .branding {
+    margin: auto;
+    width: 95%;
+}

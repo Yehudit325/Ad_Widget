@@ -17,6 +17,10 @@ class View {
             let itemPic = document.createElement('div');
             itemPic.className = "item-pic";
 
+            //create a element
+            var a = document.createElement('a');
+            a.href = itemList[i].url;
+
             // Create image element
             let pic = document.createElement('img');
             pic.src = itemList[i].image;
@@ -25,15 +29,16 @@ class View {
 
             
             // Create text elements
-            let title = document.createElement("P"); 
-            title.innerText = itemList[i].title;
+            let title = document.createElement('span'); 
+            title.innerText = itemList[i].title + "\n";
             title.className = "title";
-            let branding = document.createElement("P"); 
+            let branding = document.createElement('span'); 
             branding.innerText = itemList[i].branding;
             branding.className = "branding";
 
             // Append child nodes accordigly      
-            item.append(itemPic, title, branding);
+            a.append(itemPic, title, branding);
+            item.append(a);
             widget.append(item);
         }
     }
