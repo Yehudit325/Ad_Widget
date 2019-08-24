@@ -17,7 +17,7 @@ class View {
             let itemPic = document.createElement('div');
             itemPic.className = "item-pic";
 
-            //create a element
+            //create a link element
             var a = document.createElement('a');
             a.href = itemList[i].url;
 
@@ -27,7 +27,6 @@ class View {
             pic.alt = itemList[i].title;
             itemPic.append(pic);
 
-            
             // Create text elements
             let title = document.createElement('span'); 
             title.innerText = itemList[i].title;
@@ -42,5 +41,4 @@ class View {
             widget.append(item);
         }
     }
-    
 }
