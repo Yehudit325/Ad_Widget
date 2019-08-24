@@ -4,10 +4,10 @@
         flex: 100%;
         max-width: 100%;
     }
-  }
+}
   
-  /* Tablet Styles */
-  @media only screen and (min-width: 481px) and (max-width: 960px) {
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
     body {
         width: 90%;
     }
@@ -15,21 +15,20 @@
     .branding {
         font-size: 0.7em;
     }
-    
+
     .title {
         font-size: 0.85em;
     }
-  }
+}
 
-
-  @media only screen and (min-width: 961px) and (max-width: 1400px) {
+@media only screen and (min-width: 961px) and (max-width: 1400px) {
     body {
         width: 80%;
     }
-  }
+}
 
-  @media only screen and (min-width: 1401px) {
+@media only screen and (min-width: 1401px) {
     body {
-        width: 70%;
+        width: 65%;
     }
-  }
+}
