@@ -21,12 +21,14 @@
     }
 }
 
+/* Computer Styles */
 @media only screen and (min-width: 961px) and (max-width: 1400px) {
     body {
         width: 80%;
     }
 }
 
+/* Large screens Styles */
 @media only screen and (min-width: 1401px) {
     body {
         width: 65%;
